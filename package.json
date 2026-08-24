@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page-top",
+  "version": "1.0.0",
+  "description": "Building a restaurant page using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmit1993/restaurant-page-top.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsmit1993/restaurant-page-top/issues"
+  },
+  "homepage": "https://github.com/jsmit1993/restaurant-page-top#readme",
+  "devDependencies": {
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2"
+  }
+}
