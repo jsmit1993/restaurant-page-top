@@ -11,13 +11,19 @@ function describeVibe() {
     return vibe;
 }
 
-
+function storePhone() {
+    const pNumber = document.createElement('div');
+    pNumber.classList.add('pnumber');
+    pNumber.textContent = '808-555-5050';
+    return pNumber;
+}
 
 function loadHome(container) {
     container.innerHTML = '';
 
     container.appendChild(headerLine());
     container.appendChild(describeVibe());
+    container.appendChild(storePhone());
 }
 
 export { loadHome }
