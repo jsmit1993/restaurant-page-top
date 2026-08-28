@@ -1,3 +1,28 @@
 body {
-    background-color: rgb(95, 202, 100);
+    background-color: rgba(0,97,14);
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.vibe {
+    color: white;
+}
+
+.pnumber {
+    color: white;
+}
+
+.hours {
+    color: white;
+}
+
+.location {
+    color: white;
 }
