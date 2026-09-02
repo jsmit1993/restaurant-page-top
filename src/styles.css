@@ -11,6 +11,9 @@ h1 {
     color: white;
 }
 
+#content {
+    white-space: pre-wrap;
+}
 .vibe {
     color: white;
 }
