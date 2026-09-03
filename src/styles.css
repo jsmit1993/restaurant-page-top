@@ -11,6 +11,16 @@ h1 {
     color: white;
 }
 
+div {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+p {
+    padding-left: 25px;
+}
+
 #content {
     white-space: pre-wrap;
 }

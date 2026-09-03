@@ -2,7 +2,7 @@ console.log("this is a test");
 import "./styles.css";
 import { loadHome } from "./initialLoad.js";
 import { loadAbout } from "./about.js";
-import {} from "./menu.js";
+import { loadMenu } from "./menu.js";
 
 const content = document.querySelector("#content");
 const home = document.querySelector("#home");
@@ -17,4 +17,8 @@ About.addEventListener('click', () => {
 
 home.addEventListener('click', () => {
     loadHome(content);
+})
+
+Menu.addEventListener('click', () => {
+    loadMenu(content);
 })
