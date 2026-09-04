@@ -36,7 +36,7 @@ function aboutMary() {
 function aboutBuilding() {
     const building = document.createElement('div');
     building.classList.add('building');
-    building.textContent = 'The building we are in is an warehouse that was on the edge of town. \nWe found it had the space we needed to build out an incredible\nrestaurant that we always dreamed would be busy from breakfast till dinner. We restored\nthe original walls and lighting to the 1920 style and gave it a fresh seal coat and roof.';
+    building.textContent = 'The building we are in is an warehouse that was on the edge of town. We found it had the space we needed to build out an incredible restaurant that we always dreamed would be busy from breakfast till dinner. We restored the original walls and lighting to the 1920 style and gave it a fresh seal coat and roof.';
     return building;
 }
 
